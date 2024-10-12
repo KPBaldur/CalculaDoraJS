@@ -8,28 +8,34 @@
     <title>CalculaDora JS</title>
 </head>
 <body>
-    
-    <div id="appBg">
-        <form name="calculator">
-            <input type="textfield" name="ans" value="" autocomplete="off">
-
-            <input type="button" value="7">
-            <input type="button" value="8">
-            <input type="button" value="9">
-            <input type="button" value="+">
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button id="ac" class="operator">AC</button>
+            <button id="de" class="operator">DE</button>
+            <button id="." class="operator">.</button>
+            <button id="/" class="operator">/</button>
             <br>
-            <input type="button" value="4">
-            <input type="button" value="5">
-            <input type="button" value="6">
-            <input type="button" value="-">
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="*" class="operator">*</button>
             <br>
-            <input type="button" value="0">
-            <input type="button" value="C">
-            <input type="button" value="=">
-            <input type="button" value="/">
-        </form>
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="-" class="operator">-</button>
+            <br>
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="+" class="operator">+</button>
+            <br>
+            <button id="00">00</button>
+            <button id="0">0</button>
+            <button id="=" class="equal operator">=</button>
+        </div>
     </div>
-
 <script src="script.js"></script>
 </body>
 </html>
