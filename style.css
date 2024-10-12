@@ -4,14 +4,13 @@ body {
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
 
-#calculator{
+.calculator{
     max-width: 360px;
-    background-color: #343;
-    border-radius: 15px;
+    background-color: silver;
+    border-radius: 20px;
     padding: 20px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.19);
 }
@@ -31,7 +30,7 @@ body {
 }
 
 .operator{
-    color: violet;
+    color: steelblue;
 }
 
 #ac{
